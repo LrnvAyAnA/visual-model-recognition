@@ -13,5 +13,6 @@ def detect_elements(image):
             classes_detected.append(label)
     # Вернуть обработанное изображение и список найденных элементов
     img_with_boxes = results[0].plot()
+    print("Detected elements:", classes_detected)
     return img_with_boxes, classes_detected
 
