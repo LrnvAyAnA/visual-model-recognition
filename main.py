@@ -14,7 +14,7 @@ def process_image(image):
     img_with_boxes, detected_classes = detector.detect(image)
 
     # matcher = OntologyMatcher(ontology_path="D:/Programming/yoloyo/ontology/ontologyV3.rdf")
-    matcher = OntologyMatcher(ontology_path="ontology/ontologyV3.rdf")
+    matcher = OntologyMatcher(ontology_path="ontology/ontologyLast.rdf")
 
     # Получаем полную таблицу элементов для всех диаграмм
     all_diagram_data = matcher.get_all_diagram_data()

@@ -1,0 +1,5 @@
+train: C:/Users/Yana/PycharmProjects/prototype/Data/train/images
+val: C:/Users/Yana/PycharmProjects/prototype/Data/valid/images
+
+nc: 9
+names: ['axis', 'circle', 'label', 'legend', 'line', 'point', 'rectangle', 'sector', 'title']

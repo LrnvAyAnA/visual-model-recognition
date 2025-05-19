@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 # Загрузка модели
-model = YOLO("../runs/detect/train7/weights/best.pt")
+model = YOLO("../runs/detect/train_new/weights/best.pt")
 
 def detect_elements(image):
     results = model.predict(source=image, save=False, conf=0.25)
