@@ -22,6 +22,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#forDiagramType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#forDiagramType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#SimilarityMetrics"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Diagrams"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#forElement -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#forElement">
@@ -467,7 +476,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#ElementWeightRelation"/>
         <untitled-ontology-11:forElement rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Axis1"/>
         <untitled-ontology-11:forMetric rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#BubbleChartMetric"/>
-        <untitled-ontology-11:hasWeightValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</untitled-ontology-11:hasWeightValue>
+        <untitled-ontology-11:hasWeightValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</untitled-ontology-11:hasWeightValue>
     </owl:NamedIndividual>
     
 
@@ -520,7 +529,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#BarChartMetric">
         <rdf:type rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#SimilarityMetrics"/>
+        <untitled-ontology-11:forDiagramType rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Bar_chart1"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Bar_chart -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Bar_chart"/>
     
 
 
@@ -538,6 +554,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#BubbleChartMetric">
         <rdf:type rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#SimilarityMetrics"/>
+        <untitled-ontology-11:forDiagramType rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Bubble_chart1"/>
     </owl:NamedIndividual>
     
 
@@ -597,7 +614,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#ElementWeightRelation"/>
         <untitled-ontology-11:forElement rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Circle1"/>
         <untitled-ontology-11:forMetric rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#PieChartMetric"/>
-        <untitled-ontology-11:hasWeightValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8</untitled-ontology-11:hasWeightValue>
+        <untitled-ontology-11:hasWeightValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</untitled-ontology-11:hasWeightValue>
     </owl:NamedIndividual>
     
 
@@ -608,7 +625,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#ElementWeightRelation"/>
         <untitled-ontology-11:forElement rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Circle1"/>
         <untitled-ontology-11:forMetric rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#ScatterPlotMetric"/>
-        <untitled-ontology-11:hasWeightValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</untitled-ontology-11:hasWeightValue>
+        <untitled-ontology-11:hasWeightValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</untitled-ontology-11:hasWeightValue>
     </owl:NamedIndividual>
     
 
@@ -618,6 +635,81 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#CircleTreeLink">
         <rdf:type rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#ElementWeightRelation"/>
         <untitled-ontology-11:forElement rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Circle1"/>
+        <untitled-ontology-11:forMetric rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#TreemapMetric"/>
+        <untitled-ontology-11:hasWeightValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</untitled-ontology-11:hasWeightValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Legend1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Legend1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Legend"/>
+        <untitled-ontology-11:forElement rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Legend1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#LegendBarLink -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#LegendBarLink">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#ElementWeightRelation"/>
+        <untitled-ontology-11:forElement rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Legend1"/>
+        <untitled-ontology-11:forMetric rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#BarChartMetric"/>
+        <untitled-ontology-11:hasWeightValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</untitled-ontology-11:hasWeightValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#LegendBubbleLink -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#LegendBubbleLink">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#ElementWeightRelation"/>
+        <untitled-ontology-11:forElement rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Legend1"/>
+        <untitled-ontology-11:forMetric rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#BubbleChartMetric"/>
+        <untitled-ontology-11:hasWeightValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</untitled-ontology-11:hasWeightValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#LegendLineLink -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#LegendLineLink">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#ElementWeightRelation"/>
+        <untitled-ontology-11:forElement rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Legend1"/>
+        <untitled-ontology-11:forMetric rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#LineGraphMetric"/>
+        <untitled-ontology-11:hasWeightValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</untitled-ontology-11:hasWeightValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#LegendPieLink -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#LegendPieLink">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#ElementWeightRelation"/>
+        <untitled-ontology-11:forElement rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Legend1"/>
+        <untitled-ontology-11:forMetric rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#PieChartMetric"/>
+        <untitled-ontology-11:hasWeightValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6</untitled-ontology-11:hasWeightValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#LegendScatterLink -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#LegendScatterLink">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#ElementWeightRelation"/>
+        <untitled-ontology-11:forElement rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Legend1"/>
+        <untitled-ontology-11:forMetric rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#ScatterPlotMetric"/>
+        <untitled-ontology-11:hasWeightValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</untitled-ontology-11:hasWeightValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#LegendTreeLink -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#LegendTreeLink">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#ElementWeightRelation"/>
+        <untitled-ontology-11:forElement rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Legend1"/>
         <untitled-ontology-11:forMetric rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#TreemapMetric"/>
         <untitled-ontology-11:hasWeightValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</untitled-ontology-11:hasWeightValue>
     </owl:NamedIndividual>
@@ -649,7 +741,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#ElementWeightRelation"/>
         <untitled-ontology-11:forElement rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Line1"/>
         <untitled-ontology-11:forMetric rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#BubbleChartMetric"/>
-        <untitled-ontology-11:hasWeightValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</untitled-ontology-11:hasWeightValue>
+        <untitled-ontology-11:hasWeightValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</untitled-ontology-11:hasWeightValue>
     </owl:NamedIndividual>
     
 
@@ -658,6 +750,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#LineGraphMetric">
         <rdf:type rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#SimilarityMetrics"/>
+        <untitled-ontology-11:forDiagramType rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Line_graph1"/>
     </owl:NamedIndividual>
     
 
@@ -720,6 +813,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#PieChartMetric">
         <rdf:type rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#SimilarityMetrics"/>
+        <untitled-ontology-11:forDiagramType rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Pie_chart1"/>
     </owl:NamedIndividual>
     
 
@@ -758,7 +852,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#ElementWeightRelation"/>
         <untitled-ontology-11:forElement rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Point1"/>
         <untitled-ontology-11:forMetric rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#BubbleChartMetric"/>
-        <untitled-ontology-11:hasWeightValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</untitled-ontology-11:hasWeightValue>
+        <untitled-ontology-11:hasWeightValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</untitled-ontology-11:hasWeightValue>
     </owl:NamedIndividual>
     
 
@@ -885,6 +979,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#ScatterPlotMetric">
         <rdf:type rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#SimilarityMetrics"/>
+        <untitled-ontology-11:forDiagramType rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Scatter_plot1"/>
     </owl:NamedIndividual>
     
 
@@ -986,6 +1081,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#TreemapMetric">
         <rdf:type rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#SimilarityMetrics"/>
+        <untitled-ontology-11:forDiagramType rdf:resource="http://www.semanticweb.org/yana/ontologies/2025/3/untitled-ontology-11#Treemap1"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
